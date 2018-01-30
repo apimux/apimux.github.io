@@ -1,0 +1,33 @@
+{
+  "name": "apimux.github.io",
+  "version": "0.0.1",
+  "description": "static front-end app for discovering and utilizing web apis",
+  "main": "index.js",
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apimux/apimux.github.io.git"
+  },
+  "keywords": [
+    "apidata",
+    "apimux",
+    "api"
+  ],
+  "author": "Kenneth Reilly <kenneth.reilly@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apimux/apimux.github.io/issues"
+  },
+  "homepage": "https://github.com/apimux/apimux.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
